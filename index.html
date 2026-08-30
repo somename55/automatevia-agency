@@ -1,7 +1,7 @@
 <title>Automatevia</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Automatevia is a complete AI automation team for growing businesses. This domain supports our outbound communications - visit our main site at automatevia.com.">
+<meta name="description" content="Automatevia is a complete AI automation team that builds, runs, and stays responsible for your automation, always with your approval. Book an intro call.">
 <link rel="icon" type="image/png" href="assets/favicon-32.png">
 <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,30 +18,61 @@
 </header>
 
 <main>
+  <!-- 1. HERO -->
   <section class="hero">
     <div class="container">
-      <h1>We're Automatevia.</h1>
-      <p class="lead">A complete AI automation team for growing businesses. This domain supports our outbound communications, not a separate company.</p>
-      <a href="https://automatevia.com" class="main-site-badge">
-        Visit our main site: automatevia.com <span class="arrow">&rarr;</span>
-      </a>
+      <h1>We build the automation. We run it. We stay responsible.</h1>
+      <p class="lead">A complete AI automation team for growing businesses. Always acting with your approval, never a black box.</p>
+      <div class="cta-row">
+        <a href="https://cal.com/automatevia/intro-call" class="btn btn-primary">Book an intro call <span class="arrow">&rarr;</span></a>
+      </div>
+      <p class="cta-note">30 minutes. No pressure, no pitch deck.</p>
     </div>
   </section>
 
-  <section class="features">
+  <!-- 2. PROBLEM -->
+  <section class="section-dark">
+    <div class="container container--narrow">
+      <div class="reveal">
+        <span class="eyebrow">The problem</span>
+        <h2>Most automation attempts don't survive contact with a real business.</h2>
+      </div>
+      <div class="problem-list">
+        <div class="problem-item reveal">
+          <span class="mark">1</span>
+          <p>Leads sit in an inbox until someone finds time to reply.</p>
+        </div>
+        <div class="problem-item reveal">
+          <span class="mark">2</span>
+          <p>The "automation" is five disconnected tools someone has to babysit.</p>
+        </div>
+        <div class="problem-item reveal">
+          <span class="mark">3</span>
+          <p>When something breaks, nobody notices until a customer does.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. SOLUTION -->
+  <section>
     <div class="container">
+      <div class="reveal" style="text-align:center;">
+        <span class="eyebrow">How we're different</span>
+        <h2>A team, not a tool.</h2>
+      </div>
       <div class="features-grid">
-        <div class="feature">
+        <div class="feature reveal">
           <div class="dot">1</div>
           <h3>A managed team, not a tool</h3>
           <p>We design, build, and run AI-driven automations for your business. No new platform to learn, no one to hire for it.</p>
         </div>
-        <div class="feature">
+        <div class="feature reveal">
           <div class="dot">2</div>
           <h3>One fixed point of contact</h3>
           <p>A complete tech team that stays responsible for the result, and always acts with your approval.</p>
         </div>
-        <div class="feature">
+        <div class="feature reveal">
           <div class="dot">3</div>
           <h3>Built around what already works</h3>
           <p>Lead follow-up, customer service, ads, and operations, automated around your existing tools and process.</p>
@@ -50,10 +81,61 @@
     </div>
   </section>
 
-  <section class="contact">
+  <!-- 4. PROOF -->
+  <section class="section-dark">
     <div class="container">
-      <p>Want to know more, or have a question about an email from us?</p>
-      <a href="mailto:info@automatevia.com" class="email">info@automatevia.com</a>
+      <div class="reveal" style="text-align:center;">
+        <span class="eyebrow">Results</span>
+        <h2>What this looks like in practice</h2>
+      </div>
+      <div class="proof-grid">
+        <div class="proof-card reveal">
+          <div class="stat">Hours &rarr; under 5 minutes</div>
+          <p>A business that finances investment properties cut its lead reply time from hours to under 5 minutes.</p>
+        </div>
+        <div class="proof-card reveal">
+          <div class="stat">&euro;15,000 / month</div>
+          <p>A company that trains stylists eliminated about 15,000 euros a month in manual sorting.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. HOW IT WORKS -->
+  <section class="section-tint">
+    <div class="container">
+      <div class="reveal" style="text-align:center;">
+        <span class="eyebrow">How it works</span>
+        <h2>Three steps, nothing hidden.</h2>
+      </div>
+      <div class="steps">
+        <div class="step reveal">
+          <div class="step-number">1</div>
+          <h3>Book an intro call</h3>
+          <p>30 minutes to understand your business and where the time is actually going.</p>
+        </div>
+        <div class="step reveal">
+          <div class="step-number">2</div>
+          <h3>We map your processes</h3>
+          <p>We look at what you already use and where automation actually pays off, not where it looks impressive.</p>
+        </div>
+        <div class="step reveal">
+          <div class="step-number">3</div>
+          <h3>We build and run it, you approve</h3>
+          <p>Our team builds and operates the automation. Every action runs with your approval, always.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. FINAL CTA -->
+  <section class="section-dark final-cta">
+    <div class="container">
+      <h2>Ready to see what this looks like for your business?</h2>
+      <div class="cta-row">
+        <a href="https://cal.com/automatevia/intro-call" class="btn btn-primary">Book an intro call <span class="arrow">&rarr;</span></a>
+      </div>
+      <p class="domain-note">This domain supports our outbound communications for automatevia.com.</p>
     </div>
   </section>
 </main>
@@ -71,4 +153,27 @@
 
 <script>
   document.getElementById('year').textContent = new Date().getFullYear();
+
+  var revealEls = document.querySelectorAll('.reveal');
+  if ('IntersectionObserver' in window && revealEls.length) {
+    var observer = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('is-visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.15, rootMargin: '0px 0px -40px 0px' });
+    revealEls.forEach(function (el) { observer.observe(el); });
+    // Safety net: content must never stay hidden indefinitely if scroll
+    // never happens (crawlers, screenshot/PDF tools, a fast landing that
+    // never triggers a real scroll event) - force everything visible after
+    // a short beat regardless of intersection state.
+    setTimeout(function () {
+      revealEls.forEach(function (el) { el.classList.add('is-visible'); });
+      observer.disconnect();
+    }, 1200);
+  } else {
+    revealEls.forEach(function (el) { el.classList.add('is-visible'); });
+  }
 </script>
