@@ -1,0 +1,40 @@
+<title>Page not found - Automatevia</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex">
+<link rel="icon" type="image/png" href="assets/favicon-32.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+
+<header>
+  <div class="container">
+    <a href="https://automatevia.com">
+      <img src="assets/automatevia-logo.png" alt="Automatevia" class="logo">
+    </a>
+  </div>
+</header>
+
+<main class="error-page">
+  <h1>404</h1>
+  <p>This page doesn't exist. You're looking for our main site.</p>
+  <a href="https://automatevia.com" class="main-site-badge">
+    Go to automatevia.com <span class="arrow">&rarr;</span>
+  </a>
+</main>
+
+<footer>
+  <div class="container">
+    <span>&copy; <span id="year"></span> Automatevia</span>
+    <div class="footer-links">
+      <a href="https://automatevia.com">automatevia.com</a>
+      <a href="mailto:info@automatevia.com">info@automatevia.com</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
